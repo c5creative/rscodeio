@@ -50,8 +50,11 @@
   width: 2px;
 }
 
+/* Direct text selection, or via Find */
 .ace_marker-layer .ace_selection {
-  background-color: #3a3d41;
+  /*background-color: #3a3d41;*/
+  background-color: #98dcfe;
+  color: #1e1e1el
 }
 
 .ace_selection.ace_start {
@@ -76,8 +79,10 @@
   background-color: rgb(198, 198, 198);
 }
 
+/* Other matching text, not the one selected */
 .ace_marker-layer .ace_selected-word {
-  background-color: rgba(234, 92, 0, 0.33);
+  /*background-color: rgba(234, 92, 0, 0.33);*'/
+  background-color: rgba(254, 119, 31, 0.33);
 }
 
 .ace_invisible {
